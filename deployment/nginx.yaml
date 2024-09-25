@@ -18,7 +18,7 @@ spec:
         app: nginx-femi
     spec:
       containers:
-      - image: nginx
-        name: nginx
+      - image: httpd
+        name: httpd
         resources: {}
 status: {}
